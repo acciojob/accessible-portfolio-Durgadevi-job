@@ -4,12 +4,47 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	  <title>My Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#home">Home</a></li>
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1 role="heading">My Portfolio</h1>
+
+  <!-- Image -->
+  <img 
+    role="img"
+    src="profile.jpg" 
+    alt="Profile picture of portfolio owner"
+  >
+
+  <!-- Description -->
+  <section id="about">
+    <p>
+      Hello! I am a web developer passionate about building accessible and user-friendly websites.
+    </p>
+  </section>
+
+  <!-- List Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul role="list">
+      <li role="listitem">Responsive Website</li>
+      <li role="listitem">To-Do App</li>
+      <li role="listitem">Portfolio Website</li>
+    </ul>
+  </section>
 
 </body>
 
